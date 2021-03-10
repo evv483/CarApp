@@ -9,23 +9,49 @@
 /* Begin PBXBuildFile section */
 		236B7D8E25F8F5770038EC70 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7D8D25F8F5770038EC70 /* AppDelegate.swift */; };
 		236B7D9025F8F5770038EC70 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7D8F25F8F5770038EC70 /* SceneDelegate.swift */; };
-		236B7D9225F8F5770038EC70 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7D9125F8F5770038EC70 /* ViewController.swift */; };
-		236B7D9525F8F5770038EC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236B7D9325F8F5770038EC70 /* Main.storyboard */; };
-		236B7D9825F8F5770038EC70 /* CarApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236B7D9625F8F5770038EC70 /* CarApp.xcdatamodeld */; };
-		236B7D9A25F8F57D0038EC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236B7D9925F8F57D0038EC70 /* Assets.xcassets */; };
 		236B7D9D25F8F57D0038EC70 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236B7D9B25F8F57D0038EC70 /* LaunchScreen.storyboard */; };
+		236B7DAE25F8F6A20038EC70 /* Brand+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DAA25F8F6A10038EC70 /* Brand+CoreDataClass.swift */; };
+		236B7DAF25F8F6A20038EC70 /* Model+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DAB25F8F6A20038EC70 /* Model+CoreDataClass.swift */; };
+		236B7DB025F8F6A20038EC70 /* Model+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DAC25F8F6A20038EC70 /* Model+CoreDataProperties.swift */; };
+		236B7DB125F8F6A20038EC70 /* Brand+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DAD25F8F6A20038EC70 /* Brand+CoreDataProperties.swift */; };
+		236B7DBA25F8F6B70038EC70 /* DetailViewControllerMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DB325F8F6B60038EC70 /* DetailViewControllerMain.swift */; };
+		236B7DBB25F8F6B70038EC70 /* BrandsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DB425F8F6B60038EC70 /* BrandsTableViewController.swift */; };
+		236B7DBC25F8F6B70038EC70 /* NewModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DB525F8F6B60038EC70 /* NewModelViewController.swift */; };
+		236B7DBD25F8F6B70038EC70 /* ModelsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DB625F8F6B60038EC70 /* ModelsTableViewController.swift */; };
+		236B7DBE25F8F6B70038EC70 /* BrandsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DB725F8F6B60038EC70 /* BrandsCellTableViewCell.swift */; };
+		236B7DBF25F8F6B70038EC70 /* NewBrandViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DB825F8F6B70038EC70 /* NewBrandViewController.swift */; };
+		236B7DC025F8F6B70038EC70 /* ModelsCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236B7DB925F8F6B70038EC70 /* ModelsCellTableViewCell.swift */; };
+		236B7DC425F8F6D40038EC70 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DC325F8F6D40038EC70 /* Main.storyboard */; };
+		236B7DC925F8F7070038EC70 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DC825F8F7070038EC70 /* Assets.xcassets */; };
+		236B7DEB25F936880038EC70 /* CarApp.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DE825F936880038EC70 /* CarApp.sqlite-shm */; };
+		236B7DEC25F936880038EC70 /* CarApp.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DE925F936880038EC70 /* CarApp.sqlite */; };
+		236B7DED25F936880038EC70 /* CarApp.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DEA25F936880038EC70 /* CarApp.sqlite-wal */; };
+		236B7E4025F948770038EC70 /* CarApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236B7E3E25F948770038EC70 /* CarApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		236B7D8A25F8F5770038EC70 /* CarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236B7D8D25F8F5770038EC70 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		236B7D8F25F8F5770038EC70 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		236B7D9125F8F5770038EC70 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		236B7D9425F8F5770038EC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		236B7D9725F8F5770038EC70 /* CarApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarApp.xcdatamodel; sourceTree = "<group>"; };
-		236B7D9925F8F57D0038EC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		236B7D9C25F8F57D0038EC70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		236B7D9E25F8F57D0038EC70 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		236B7DAA25F8F6A10038EC70 /* Brand+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Brand+CoreDataClass.swift"; sourceTree = "<group>"; };
+		236B7DAB25F8F6A20038EC70 /* Model+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model+CoreDataClass.swift"; sourceTree = "<group>"; };
+		236B7DAC25F8F6A20038EC70 /* Model+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Model+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		236B7DAD25F8F6A20038EC70 /* Brand+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Brand+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		236B7DB325F8F6B60038EC70 /* DetailViewControllerMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewControllerMain.swift; sourceTree = "<group>"; };
+		236B7DB425F8F6B60038EC70 /* BrandsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsTableViewController.swift; sourceTree = "<group>"; };
+		236B7DB525F8F6B60038EC70 /* NewModelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewModelViewController.swift; sourceTree = "<group>"; };
+		236B7DB625F8F6B60038EC70 /* ModelsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsTableViewController.swift; sourceTree = "<group>"; };
+		236B7DB725F8F6B60038EC70 /* BrandsCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrandsCellTableViewCell.swift; sourceTree = "<group>"; };
+		236B7DB825F8F6B70038EC70 /* NewBrandViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewBrandViewController.swift; sourceTree = "<group>"; };
+		236B7DB925F8F6B70038EC70 /* ModelsCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelsCellTableViewCell.swift; sourceTree = "<group>"; };
+		236B7DC325F8F6D40038EC70 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		236B7DC825F8F7070038EC70 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		236B7DE825F936880038EC70 /* CarApp.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CarApp.sqlite-shm"; sourceTree = "<group>"; };
+		236B7DE925F936880038EC70 /* CarApp.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CarApp.sqlite; sourceTree = "<group>"; };
+		236B7DEA25F936880038EC70 /* CarApp.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CarApp.sqlite-wal"; sourceTree = "<group>"; };
+		236B7E3F25F948770038EC70 /* CarApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,14 +86,35 @@
 			children = (
 				236B7D8D25F8F5770038EC70 /* AppDelegate.swift */,
 				236B7D8F25F8F5770038EC70 /* SceneDelegate.swift */,
-				236B7D9125F8F5770038EC70 /* ViewController.swift */,
-				236B7D9325F8F5770038EC70 /* Main.storyboard */,
-				236B7D9925F8F57D0038EC70 /* Assets.xcassets */,
+				236B7DAA25F8F6A10038EC70 /* Brand+CoreDataClass.swift */,
+				236B7DAD25F8F6A20038EC70 /* Brand+CoreDataProperties.swift */,
+				236B7DAB25F8F6A20038EC70 /* Model+CoreDataClass.swift */,
+				236B7DAC25F8F6A20038EC70 /* Model+CoreDataProperties.swift */,
+				236B7DB425F8F6B60038EC70 /* BrandsTableViewController.swift */,
+				236B7DB825F8F6B70038EC70 /* NewBrandViewController.swift */,
+				236B7DB625F8F6B60038EC70 /* ModelsTableViewController.swift */,
+				236B7DB525F8F6B60038EC70 /* NewModelViewController.swift */,
+				236B7DB725F8F6B60038EC70 /* BrandsCellTableViewCell.swift */,
+				236B7DB925F8F6B70038EC70 /* ModelsCellTableViewCell.swift */,
+				236B7DB325F8F6B60038EC70 /* DetailViewControllerMain.swift */,
+				236B7DC325F8F6D40038EC70 /* Main.storyboard */,
 				236B7D9B25F8F57D0038EC70 /* LaunchScreen.storyboard */,
+				236B7DC825F8F7070038EC70 /* Assets.xcassets */,
 				236B7D9E25F8F57D0038EC70 /* Info.plist */,
-				236B7D9625F8F5770038EC70 /* CarApp.xcdatamodeld */,
+				236B7E3E25F948770038EC70 /* CarApp.xcdatamodeld */,
+				236B7DCE25F900A60038EC70 /* CoreData BackUp */,
 			);
 			path = CarApp;
+			sourceTree = "<group>";
+		};
+		236B7DCE25F900A60038EC70 /* CoreData BackUp */ = {
+			isa = PBXGroup;
+			children = (
+				236B7DE925F936880038EC70 /* CarApp.sqlite */,
+				236B7DE825F936880038EC70 /* CarApp.sqlite-shm */,
+				236B7DEA25F936880038EC70 /* CarApp.sqlite-wal */,
+			);
+			path = "CoreData BackUp";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,9 +174,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				236B7DC425F8F6D40038EC70 /* Main.storyboard in Resources */,
+				236B7DEC25F936880038EC70 /* CarApp.sqlite in Resources */,
+				236B7DEB25F936880038EC70 /* CarApp.sqlite-shm in Resources */,
+				236B7DC925F8F7070038EC70 /* Assets.xcassets in Resources */,
 				236B7D9D25F8F57D0038EC70 /* LaunchScreen.storyboard in Resources */,
-				236B7D9A25F8F57D0038EC70 /* Assets.xcassets in Resources */,
-				236B7D9525F8F5770038EC70 /* Main.storyboard in Resources */,
+				236B7DED25F936880038EC70 /* CarApp.sqlite-wal in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,9 +190,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				236B7D9225F8F5770038EC70 /* ViewController.swift in Sources */,
+				236B7DBF25F8F6B70038EC70 /* NewBrandViewController.swift in Sources */,
+				236B7DAF25F8F6A20038EC70 /* Model+CoreDataClass.swift in Sources */,
+				236B7E4025F948770038EC70 /* CarApp.xcdatamodeld in Sources */,
+				236B7DAE25F8F6A20038EC70 /* Brand+CoreDataClass.swift in Sources */,
+				236B7DBE25F8F6B70038EC70 /* BrandsCellTableViewCell.swift in Sources */,
+				236B7DBB25F8F6B70038EC70 /* BrandsTableViewController.swift in Sources */,
+				236B7DC025F8F6B70038EC70 /* ModelsCellTableViewCell.swift in Sources */,
+				236B7DB125F8F6A20038EC70 /* Brand+CoreDataProperties.swift in Sources */,
+				236B7DBD25F8F6B70038EC70 /* ModelsTableViewController.swift in Sources */,
+				236B7DBC25F8F6B70038EC70 /* NewModelViewController.swift in Sources */,
+				236B7DBA25F8F6B70038EC70 /* DetailViewControllerMain.swift in Sources */,
 				236B7D8E25F8F5770038EC70 /* AppDelegate.swift in Sources */,
-				236B7D9825F8F5770038EC70 /* CarApp.xcdatamodeld in Sources */,
+				236B7DB025F8F6A20038EC70 /* Model+CoreDataProperties.swift in Sources */,
 				236B7D9025F8F5770038EC70 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,14 +210,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		236B7D9325F8F5770038EC70 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				236B7D9425F8F5770038EC70 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		236B7D9B25F8F57D0038EC70 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -220,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -275,7 +327,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -300,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -319,7 +371,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CarApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -347,13 +399,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		236B7D9625F8F5770038EC70 /* CarApp.xcdatamodeld */ = {
+		236B7E3E25F948770038EC70 /* CarApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				236B7D9725F8F5770038EC70 /* CarApp.xcdatamodel */,
+				236B7E3F25F948770038EC70 /* CarApp.xcdatamodel */,
 			);
-			currentVersion = 236B7D9725F8F5770038EC70 /* CarApp.xcdatamodel */;
-			path = CarApp.xcdatamodeld;
+			currentVersion = 236B7E3F25F948770038EC70 /* CarApp.xcdatamodel */;
+			name = CarApp.xcdatamodeld;
+			path = ../../CarAppTemp/CarApp/CarApp/CarApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
