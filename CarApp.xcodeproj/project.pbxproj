@@ -26,7 +26,7 @@
 		236B7DEB25F936880038EC70 /* CarApp.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DE825F936880038EC70 /* CarApp.sqlite-shm */; };
 		236B7DEC25F936880038EC70 /* CarApp.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DE925F936880038EC70 /* CarApp.sqlite */; };
 		236B7DED25F936880038EC70 /* CarApp.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 236B7DEA25F936880038EC70 /* CarApp.sqlite-wal */; };
-		236B7E4025F948770038EC70 /* CarApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236B7E3E25F948770038EC70 /* CarApp.xcdatamodeld */; };
+		236B7E5125FA15E70038EC70 /* CarApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 236B7E4F25FA15E70038EC70 /* CarApp.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +51,7 @@
 		236B7DE825F936880038EC70 /* CarApp.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CarApp.sqlite-shm"; sourceTree = "<group>"; };
 		236B7DE925F936880038EC70 /* CarApp.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = CarApp.sqlite; sourceTree = "<group>"; };
 		236B7DEA25F936880038EC70 /* CarApp.sqlite-wal */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CarApp.sqlite-wal"; sourceTree = "<group>"; };
-		236B7E3F25F948770038EC70 /* CarApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarApp.xcdatamodel; sourceTree = "<group>"; };
+		236B7E5025FA15E70038EC70 /* CarApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CarApp.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +99,9 @@
 				236B7DB325F8F6B60038EC70 /* DetailViewControllerMain.swift */,
 				236B7DC325F8F6D40038EC70 /* Main.storyboard */,
 				236B7D9B25F8F57D0038EC70 /* LaunchScreen.storyboard */,
+				236B7E4F25FA15E70038EC70 /* CarApp.xcdatamodeld */,
 				236B7DC825F8F7070038EC70 /* Assets.xcassets */,
 				236B7D9E25F8F57D0038EC70 /* Info.plist */,
-				236B7E3E25F948770038EC70 /* CarApp.xcdatamodeld */,
 				236B7DCE25F900A60038EC70 /* CoreData BackUp */,
 			);
 			path = CarApp;
@@ -192,7 +192,7 @@
 			files = (
 				236B7DBF25F8F6B70038EC70 /* NewBrandViewController.swift in Sources */,
 				236B7DAF25F8F6A20038EC70 /* Model+CoreDataClass.swift in Sources */,
-				236B7E4025F948770038EC70 /* CarApp.xcdatamodeld in Sources */,
+				236B7E5125FA15E70038EC70 /* CarApp.xcdatamodeld in Sources */,
 				236B7DAE25F8F6A20038EC70 /* Brand+CoreDataClass.swift in Sources */,
 				236B7DBE25F8F6B70038EC70 /* BrandsCellTableViewCell.swift in Sources */,
 				236B7DBB25F8F6B70038EC70 /* BrandsTableViewController.swift in Sources */,
@@ -399,14 +399,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		236B7E3E25F948770038EC70 /* CarApp.xcdatamodeld */ = {
+		236B7E4F25FA15E70038EC70 /* CarApp.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				236B7E3F25F948770038EC70 /* CarApp.xcdatamodel */,
+				236B7E5025FA15E70038EC70 /* CarApp.xcdatamodel */,
 			);
-			currentVersion = 236B7E3F25F948770038EC70 /* CarApp.xcdatamodel */;
-			name = CarApp.xcdatamodeld;
-			path = ../../CarAppTemp/CarApp/CarApp/CarApp.xcdatamodeld;
+			currentVersion = 236B7E5025FA15E70038EC70 /* CarApp.xcdatamodel */;
+			path = CarApp.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
